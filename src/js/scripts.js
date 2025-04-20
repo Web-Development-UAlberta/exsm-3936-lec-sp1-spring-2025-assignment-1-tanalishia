@@ -54,7 +54,7 @@ async function main() {
 
     output(`odometer: ${myCar.odometer} km`)
 
-    let JSONCar = JSON.stringify(myCar);
+    JSONCar = JSON.stringify(myCar);
     output(JSONCar);
 
 
